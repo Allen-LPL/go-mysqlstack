@@ -12,8 +12,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/Allen-LPL/go-mysqlstack/driver"
-	"github.com/Allen-LPL/go-mysqlstack/xlog"
+	"go-mysqlstack/driver"
+	"go-mysqlstack/xlog"
 )
 
 func main() {

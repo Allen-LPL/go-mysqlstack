@@ -15,13 +15,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Allen-LPL/go-mysqlstack/packet"
-	"github.com/Allen-LPL/go-mysqlstack/proto"
-	"github.com/Allen-LPL/go-mysqlstack/sqldb"
+	"go-mysqlstack/packet"
+	"go-mysqlstack/proto"
+	"go-mysqlstack/sqldb"
 
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/common"
-	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/sqltypes"
+	"go-mysqlstack/sqlparser/depends/common"
+	querypb "go-mysqlstack/sqlparser/depends/query"
+	"go-mysqlstack/sqlparser/depends/sqltypes"
 )
 
 var _ Conn = &conn{}

@@ -11,8 +11,8 @@ import (
 	"strconv"
 
 	"github.com/shopspring/decimal"
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/common"
-	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
+	"go-mysqlstack/sqlparser/depends/common"
+	querypb "go-mysqlstack/sqlparser/depends/query"
 )
 
 // numeric represents a numeric value extracted from

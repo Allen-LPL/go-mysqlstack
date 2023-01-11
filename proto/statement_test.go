@@ -16,9 +16,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/common"
-	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/sqltypes"
+	"go-mysqlstack/sqlparser/depends/common"
+	querypb "go-mysqlstack/sqlparser/depends/query"
+	"go-mysqlstack/sqlparser/depends/sqltypes"
 )
 
 func TestStatementPrepare(t *testing.T) {

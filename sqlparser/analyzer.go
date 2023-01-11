@@ -24,7 +24,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/sqltypes"
+	"go-mysqlstack/sqlparser/depends/sqltypes"
 )
 
 // These constants are used to identify the SQL statement type.

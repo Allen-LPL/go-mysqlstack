@@ -15,13 +15,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Allen-LPL/go-mysqlstack/packet"
-	"github.com/Allen-LPL/go-mysqlstack/proto"
-	"github.com/Allen-LPL/go-mysqlstack/sqldb"
-	"github.com/Allen-LPL/go-mysqlstack/xlog"
+	"go-mysqlstack/packet"
+	"go-mysqlstack/proto"
+	"go-mysqlstack/sqldb"
+	"go-mysqlstack/xlog"
 
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/common"
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/sqltypes"
+	"go-mysqlstack/sqlparser/depends/common"
+	"go-mysqlstack/sqlparser/depends/sqltypes"
 )
 
 // Session is a client connection with greeting and auth.

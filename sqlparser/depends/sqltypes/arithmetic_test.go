@@ -15,7 +15,7 @@ import (
 	"github.com/shopspring/decimal"
 
 	"github.com/stretchr/testify/assert"
-	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
+	querypb "go-mysqlstack/sqlparser/depends/query"
 )
 
 func TestArithmetic(t *testing.T) {

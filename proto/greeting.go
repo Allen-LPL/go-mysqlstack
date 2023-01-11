@@ -13,8 +13,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Allen-LPL/go-mysqlstack/sqldb"
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/common"
+	"go-mysqlstack/sqldb"
+	"go-mysqlstack/sqlparser/depends/common"
 )
 
 // Greeting used for greeting packet.

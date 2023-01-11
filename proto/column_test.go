@@ -13,10 +13,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/sqltypes"
+	"go-mysqlstack/sqlparser/depends/sqltypes"
 
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/common"
-	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
+	"go-mysqlstack/sqlparser/depends/common"
+	querypb "go-mysqlstack/sqlparser/depends/query"
 )
 
 func TestColumnCount(t *testing.T) {

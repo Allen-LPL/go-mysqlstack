@@ -7,7 +7,7 @@ package sqltypes
 import (
 	"testing"
 
-	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
+	querypb "go-mysqlstack/sqlparser/depends/query"
 )
 
 func TestTypeValues(t *testing.T) {

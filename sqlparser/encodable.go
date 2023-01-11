@@ -19,7 +19,7 @@ package sqlparser
 import (
 	"strings"
 
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/sqltypes"
+	"go-mysqlstack/sqlparser/depends/sqltypes"
 )
 
 // This file contains types that are 'Encodable'.

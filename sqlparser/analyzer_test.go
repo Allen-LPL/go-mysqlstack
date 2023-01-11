@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/sqltypes"
+	"go-mysqlstack/sqlparser/depends/sqltypes"
 )
 
 func TestPreview(t *testing.T) {

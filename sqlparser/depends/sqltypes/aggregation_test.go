@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
+	querypb "go-mysqlstack/sqlparser/depends/query"
 )
 
 func TestNewAggregation(t *testing.T) {

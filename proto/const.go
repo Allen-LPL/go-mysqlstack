@@ -10,7 +10,7 @@
 package proto
 
 import (
-	"github.com/Allen-LPL/go-mysqlstack/sqldb"
+	"go-mysqlstack/sqldb"
 )
 
 const (

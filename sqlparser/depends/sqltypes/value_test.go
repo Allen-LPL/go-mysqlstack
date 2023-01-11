@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/common"
-	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
+	"go-mysqlstack/sqlparser/depends/common"
+	querypb "go-mysqlstack/sqlparser/depends/query"
 )
 
 func TestMake(t *testing.T) {

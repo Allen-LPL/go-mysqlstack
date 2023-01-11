@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"testing"
 
-	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
+	querypb "go-mysqlstack/sqlparser/depends/query"
 )
 
 func TestColumnRemove(t *testing.T) {

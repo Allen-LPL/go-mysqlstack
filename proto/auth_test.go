@@ -13,8 +13,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/Allen-LPL/go-mysqlstack/sqldb"
-	"github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/common"
+	"go-mysqlstack/sqldb"
+	"go-mysqlstack/sqlparser/depends/common"
 )
 
 func TestAuth(t *testing.T) {

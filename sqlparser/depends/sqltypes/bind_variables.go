@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strconv"
 
-	querypb "github.com/Allen-LPL/go-mysqlstack/sqlparser/depends/query"
+	querypb "go-mysqlstack/sqlparser/depends/query"
 )
 
 // NullBindVariable is a bindvar with NULL value.
